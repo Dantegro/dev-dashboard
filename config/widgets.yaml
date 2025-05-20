@@ -1,0 +1,15 @@
+# ~/homepage/config/widgets.yaml
+# (replace the whole file with the block below)
+
+- greeting:
+    text: "DAN’S ULTRA DASHBOARD — welcome to your command center 🚀"
+    text_size: xl          # sm | md | lg | xl | 2xl  (optional)
+
+- resources:               # top-bar CPU / RAM / disk
+    cpu: true
+    memory: true
+    disk: /
+
+- search:                  # DuckDuckGo bar
+    provider: duckduckgo
+    target: _blank

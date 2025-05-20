@@ -1,0 +1,21 @@
+- Docs:
+    - Next.js:
+        - icon: book
+          href: https://nextjs.org/docs
+    - NestJS:
+        - icon: book
+          href: https://docs.nestjs.com
+    - Prisma:
+        - icon: book
+          href: https://www.prisma.io/docs
+    - Supabase:
+        - icon: book
+          href: https://supabase.com/docs
+
+- GitHub:
+    - My Profile:
+        - icon: github
+          href: https://github.com/Dantegro
+    - Dotfiles Repo:
+        - icon: github
+          href: https://github.com/Dantegro/dotfiles

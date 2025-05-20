@@ -1,0 +1,55 @@
+title: "Dantegro Web Hub"
+
+services:
+  - Projects:
+      - Next.js (Frontend):
+          icon: react.png
+          href: http://localhost:3000
+          description: "Frontend server (Next.js)"
+          ping: http://localhost:3000
+      - NestJS (Backend):
+          icon: nodejs.png
+          href: http://localhost:4000
+          description: "Backend API (NestJS)"
+          ping: http://localhost:4000/health
+
+  - Dev Tools:
+      - Prisma Studio:
+          icon: database.png
+          href: http://localhost:5555
+          description: "Prisma DB browser (run `npx prisma studio`)"
+      - Swagger API Docs:
+          icon: book.png
+          href: http://localhost:4000/api-docs
+          description: "NestJS Swagger docs"
+      - Supabase Studio:
+          icon: supabase.png
+          href: http://localhost:54323
+          description: "Supabase local dev tools"
+      - pgAdmin:
+          icon: database.png
+          href: http://localhost:5050
+          description: "pgAdmin UI (PostgreSQL browser)"
+
+bookmarks:
+  - Docs:
+      - Next.js:
+          icon: book.png
+          href: https://nextjs.org/docs
+      - NestJS:
+          icon: book.png
+          href: https://docs.nestjs.com
+      - Prisma:
+          icon: book.png
+          href: https://www.prisma.io/docs
+      - Supabase:
+          icon: book.png
+          href: https://supabase.com/docs
+
+  - GitHub:
+      - My Profile:
+          icon: github.png
+          href: https://github.com/Dantegro
+      - Dotfiles Repo:
+          icon: github.png
+          href: https://github.com/Dantegro/dotfiles
